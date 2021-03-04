@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public abstract class main {
+public abstract class sorting {
     static int[] foo = new int[5];  //random arr foo is declared
     //static int foo[] = {3, 4, 9, 1, 2}; //declare set array if needed
 
