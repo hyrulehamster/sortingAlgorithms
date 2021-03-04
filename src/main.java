@@ -1,11 +1,16 @@
+import java.util.Arrays;
+
 public abstract class main {
-    static int[] foo = new int[10];  //arr foo is declared
+    static int[] foo = new int[5];  //arr foo is declared
 
     //main
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         fillfoo();
-        sortingAlgorithm.sort(foo);
+        System.out.println(Arrays.toString(foo));   //prints foo before it gets sorted
+        insertion.sort(foo);
+        System.out.println(Arrays.toString(foo));   //prints foo after it was sorted
     }
+
 
     //for testing
     public static void fillfoo(){

@@ -2,7 +2,7 @@ import java.lang.Math;
 import java.lang.System;
 import java.util.Arrays;
 
-public class sortingAlgorithm {
+public class selection {
     //declarations
     static int n = main.foo.length;
 
@@ -13,8 +13,6 @@ public class sortingAlgorithm {
 
     //sort algorithm
     public static void sort(int [] foo) {
-        System.out.println(Arrays.toString(foo)); //prints foo before it gets sorted
-
         while (n>1){
             for (int i=0; i<n-1; i++) {
                 if (foo[i] > foo[i + 1]) {  //compares i and  i+1, bigger one is swapped
